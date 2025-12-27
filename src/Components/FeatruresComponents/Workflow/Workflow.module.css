@@ -1,0 +1,55 @@
+/* Workflow Section */
+.workflow {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1300px;
+  background-color: #f0f6fa;
+  padding: 3rem 1rem;
+  margin: 3rem 0rem;
+}
+
+.workflow h2 {
+    margin-top: 0;
+}
+
+.workflowSteps {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.workflowStep {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #dce3ea;
+  text-align: center;
+}
+
+.stepNumber {
+  width: 40px;
+  height: 40px;
+  background-color: #002b45;
+  color: #fff;
+  border-radius: 50%;
+  margin: 0 auto 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+
+/* Animations */
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

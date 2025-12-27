@@ -1,0 +1,147 @@
+/* Hero Banner */
+.hero {
+  background-image: url("/images/about-hero.jpg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 1rem 1rem;
+}
+
+.heroContent h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.heroContent p {
+  font-size: 1.2rem;
+}
+
+/* Sections */
+.section,
+.missionVision,
+.sectionAlt {
+  padding: 2rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.sectionContent {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+}
+
+.sectionContent .text {
+  flex: 1 1 300px;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+.text p {
+  font-size: 1.1rem;
+}
+
+.sectionContent .image {
+  flex: 1 1 300px;
+}
+
+.sectionContent .image img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+/* Mission & Vision */
+.missionVision {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.missionVision h3 {
+  font-size: 1.4rem;
+}
+
+.missionVision p {
+  font-size: 1.1rem;
+}
+.block {
+  box-sizing: border-box;
+  width: 40%;
+  min-width: 350px;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+}
+
+/* Highlights */
+.highlights {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+  margin-top: 5rem;
+}
+
+.highlight {
+  text-align: center;
+}
+
+.highlight img {
+  height: 140px;
+  margin-bottom: 1rem;
+}
+
+.highlight h4 {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+  color: #002b45;
+}
+
+
+/* Team */
+.teamGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.teamMember {
+  text-align: center;
+}
+
+.teamMember img {
+  width: 60%;
+  object-fit: cover;
+  height: 200px;
+  margin-bottom: 0.75rem;
+}
+
+.teamMember h4 {
+  margin: 0.5rem 0 0.25rem;
+  color: #002b45;
+}
+
+.teamMember p {
+  padding: 10px 40px;
+}
+
+
+
+/* Responsive */
+@media (max-width: 768px) {
+  .heroContent h1 {
+    font-size: 2rem;
+  }
+  .heroContent p {
+    font-size: 1rem;
+  }
+
+  .block {
+    width: 100%;
+  }
+}

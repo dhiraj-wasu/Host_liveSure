@@ -1,0 +1,212 @@
+.chatButton {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(135deg, #3b82f6, #8b5cf6,#3b82f6, #3b82f6, #8b5cf6 );
+  animation: gradientShift 4s ease infinite;
+    background-size: 400% 400%;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  padding: 12px;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  transition: background 0.3s;
+  z-index: 999;
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.chatWindow {
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  width: 90%;
+  max-width: 400px;
+  min-height: 500px;
+  background: #f0f8ff;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  transform: translateY(120%);
+  opacity: 0;
+  transition: all 0.4s ease;
+  z-index: 999;
+}
+
+.open {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.header {
+  background: #0077cc;
+  color: #fff;
+  padding: 12px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.controls button {
+  background: transparent;
+  color: #fff;
+  border: none;
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+.messages {
+  flex: 1;
+  padding: 10px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-height: 350px;
+  background: #eaf6ff;
+}
+
+.message {
+  padding: 8px 12px;
+  border-radius: 8px;
+  max-width: 70%;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.bot {
+  background: #d0e8ff;
+  align-self: flex-start;
+}
+
+.user {
+  background: #0077cc;
+  color: #fff;
+  align-self: flex-end;
+}
+
+.quickReplies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  padding: 8px;
+  background: #f0f8ff;
+}
+
+.quickReplies button {
+  background: #d0e8ff;
+  border: none;
+  border-radius: 16px;
+  padding: 6px 12px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.quickReplies button:hover {
+  background: #b6dcff;
+}
+
+.inputArea {
+  display: flex;
+  padding: 10px;
+  border-top: 1px solid #d0e8ff;
+  background: #f5faff;
+}
+
+.inputArea input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background: #f5faff;
+}
+
+.inputArea button {
+  background: #0077cc;
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.confirmClose {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  text-align: center;
+}
+
+.confirmBtn {
+  background: #d9534f;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 12px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.cancelBtn {
+  background: #f0f8ff;
+  color: #0077cc;
+  border: 1px solid #0077cc;
+  border-radius: 6px;
+  padding: 6px 12px;
+  margin-top: 6px;
+  cursor: pointer;
+}
+
+.messageRow {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 8px;
+}
+
+.botRow {
+  justify-content: flex-start;
+}
+
+.userRow {
+  justify-content: flex-end;
+}
+
+.avatar {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: #ccc;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  margin: 0 6px;
+  flex-shrink: 0;
+}
+
+.botRow .avatar {
+  background: #0077cc;
+}
+
+.userRow .avatar {
+  background: #555;
+}

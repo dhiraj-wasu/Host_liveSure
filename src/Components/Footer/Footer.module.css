@@ -1,0 +1,116 @@
+.footer {
+  background-color: #fff;
+  color: #333;
+  padding: 3rem 3rem 1rem;
+  margin-top: 50px;
+  border-top: 0.5px solid rgba(79, 79, 79, 0.363);
+}
+
+.footerTop {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.logoSection {
+  flex: 1 1 200px;
+}
+
+.logo {
+  width: 140px;
+  margin-bottom: 0.5rem;
+}
+
+.logoSection p {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.footerLinksGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 2rem;
+  flex: 2;
+}
+
+.linkColumn h4 {
+  font-size: 1rem;
+  margin-bottom: 0.75rem;
+  color: #002b45;
+}
+
+.linkColumn ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.linkColumn li {
+  margin-bottom: 0.5rem;
+}
+
+.linkColumn a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.linkColumn a:hover {
+  color: #00aaff;
+}
+
+.footerBottom {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 2rem;
+  align-items: center;
+}
+
+.socialIcons a {
+  color: #333;
+  font-size: 1rem;
+  margin-right: 1rem;
+  transition: color 0.2s;
+}
+
+.socialIcons a:hover {
+  color: #00aaff;
+}
+
+.appBadges img {
+  height: 40px;
+  margin-right: 0.5rem;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 0.85rem;
+  color: #666;
+  margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+  .footerTop {
+    flex-direction: column;
+  }
+
+  .footerBottom {
+    flex-direction: column;
+    text-align: center;
+  }
+   .footerLinksGrid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+  .footer {
+    padding: 2rem 1rem 1rem;
+  }
+  
+}

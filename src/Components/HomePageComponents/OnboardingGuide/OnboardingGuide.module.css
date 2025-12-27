@@ -1,0 +1,140 @@
+.onboardingWrapper {
+  box-sizing: border-box;
+  padding: 2rem;
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.guidesGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+.card {
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.userType {
+  font-size: 1.5rem;
+  margin-bottom: -0.5rem;
+}
+
+.subtitle {
+  width: 90%;
+  text-align: center;
+  color: #555;
+  padding-bottom: 1.5rem;
+  border-bottom: 0.1px dashed #0000005d;
+}
+
+.stepsList {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin-top: 20px;
+}
+
+.stepItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.stepImageWrapper {
+  height: 200px;
+}
+
+.stepImage {
+  height: 100%;
+}
+
+.stepText {
+  flex: 1;
+}
+
+.stepTitle {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+
+.stepDescription {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+/* RESPONSIVE STYLES */
+
+@media (min-width: 768px) {
+  .guidesGrid {
+    grid-template-columns: 1fr; /* Single column grid for the cards */
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .stepsList {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+
+  .stepItem {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 150px;
+  }
+
+  .stepImageWrapper {
+    width: 60px;
+    height: 60px;
+  }
+
+  .stepTitle {
+    margin-top: 0.5rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .stepsList {
+    flex-direction: column;
+  }
+
+  .stepItem {
+    flex-direction: row;
+    text-align: left;
+  }
+}
+
+.learnMore {
+  background-color: #ffffff;
+  padding: 10px 20px;
+  color: rgb(0, 0, 0);
+  font-size: 1rem;
+  border: 1px solid;
+  border-radius: 20px;
+  right: 0;
+}
+
+.stepNumber {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #7a7a7a;
+}
+
+

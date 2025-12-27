@@ -1,0 +1,82 @@
+.testimonials {
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+/* h2 {
+  font-size: 2.2rem;
+  margin-bottom: 3rem;
+  color: #032b41;
+} */
+
+.cards {
+  margin-top: 30px;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 3rem;
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  max-width: 300px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.role {
+  display: inline-block;
+  background: #e9f1f7;
+  color: #032b41;
+  font-size: 0.75rem;
+  padding: 4px 8px;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.card img {
+  width: 100%;
+  max-width: 160px;
+  height: 140px;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.card p {
+  font-size: 0.95rem;
+  color: #032b41;
+}
+
+.stats {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.stat {
+  max-width: 200px;
+}
+
+.stat strong {
+  font-size: 2rem;
+  color: #032b41;
+}
+
+.statText {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #032b41;
+}
+
+.note {
+  margin-top: 2rem;
+  font-size: 0.75rem;
+  color: #6c7a89;
+}
