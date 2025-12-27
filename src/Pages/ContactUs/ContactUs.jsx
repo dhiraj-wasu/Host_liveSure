@@ -16,13 +16,14 @@ const ContactUs = () => {
       <section className={styles.infoSection}>
         <div className={styles.infoBlock}>
           <h3>Our Location</h3>
-          <p>91Springboard, T-Hub, Hyderabad, Telangana, India</p>
+          <p>Plot No. 63, Sahakar Nagar, Khamla, Khamla
+Police Chowki, Nagpur- 440025, Maharashtra, India</p>
         </div>
         <div className={styles.infoBlock}>
           <h3>Customer Care</h3>
           <p>Phone: +91-XXXX-XXXXXX</p>
-          <p>Email: <a href="mailto:support@livesure.in">support@livesure.in</a></p>
-          <p>Emergency Email: <a href="mailto:emergency@livesure.in">emergency@livesure.in</a></p>
+          <p>Email: <a href="mailto:techagenx@gmail.com">techagenx@gmail.com</a></p>
+          {/* <p>Emergency Email: <a href="mailto:emergency@livesure.in">techagenx@gmail.com</a></p> */}
         </div>
       </section>
 
@@ -72,14 +73,14 @@ const ContactUs = () => {
           If you’re a <strong>hospital, ambulance provider, NGO, or government agency</strong>, we’d love to explore partnerships.
           Join us in building a faster, smarter, and more connected emergency healthcare ecosystem across India.
         </p>
-        <p>For partnership opportunities, please select <strong>“Partnership”</strong> in the form above or reach out directly at <a href="mailto:partnerships@livesure.in">partnerships@livesure.in</a>.</p>
+        <p>For partnership opportunities, please select <strong>“Partnership”</strong> in the form above or reach out directly.</p>
       </section>
 
       {/* Map Embed */}
       <section className={styles.mapSection}>
         <iframe
           title="LiveSure Office Location"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.0181412893373!2d78.39165567404318!3d17.444771383282936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9392b33bc03f%3A0x75bc98a2dc4f626!2sT-Hub%2C%20IIIT-H%2C%20Gachibowli%2C%20Hyderabad%2C%20Telangana%20500032!5e0!3m2!1sen!2sin!4v1718802470875!5m2!1sen!2sin"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d441.4855326396808!2d79.05383277209853!3d21.102910130051473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4bf9a0c85bb57%3A0x479ae7e42cc3cb00!2s63%2C%20Jaiprakash%20Nagar%2C%20Nagpur%2C%20Maharashtra%20440025!5e1!3m2!1sen!2sin!4v1766863826783!5m2!1sen!2sin"
           width="100%"
           height="300"
           style={{ border: 0 }}

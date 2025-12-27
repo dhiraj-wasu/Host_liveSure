@@ -9,8 +9,7 @@ const AboutUs = () => {
         <div className={styles.heroContent}>
           <h1>Why LiveSure Exists</h1>
           <p>
-            Making life-saving healthcare accessible in under 60 seconds for
-            everyone.
+            LiveSure, a product of Agenx Tech, is India’s first connected healthcare infrastructure — ensuring life-saving care reaches you faster and smarter, every time
           </p>
         </div>
       </section>
@@ -21,20 +20,21 @@ const AboutUs = () => {
           <div className={styles.text}>
             <h2>How It All Started</h2>
             <p>
-              LiveSure was born from a deeply personal experience—when a loved
-              one suffered a medical emergency, delays in getting help led to
-              devastating consequences.
+              Imagine this — it’s 2:00 a.m. A loved one suddenly collapses at home with
+              severe chest pain. You call every number — ambulance, hospital, helpline —
+              but help doesn’t arrive fast enough. The ambulance reaches after 25 minutes.
+              By the time they reach the hospital, the doctor says, 
+              <strong>“If he had arrived just five minutes earlier, we could’ve saved him.”</strong>
             </p>
             <p>
-              That raised a powerful question:{" "}
-              <strong>
-                “What if the app knew you were in trouble—even before you did?”
-              </strong>
+              The tragedy? Available ICU beds and ambulances exist, but families don’t know
+              in real-time. Every day in India, over 1,200 people die because care comes too late.
+              Not due to lack of skill, but because the system lacks connection.
             </p>
             <p>
-              With AI, sensors, and a connected healthcare ecosystem, we set out
-              to build a system that detects emergencies, dispatches help, and
-              supports you until recovery.
+              That’s why Agenx Tech created <strong>LiveSure</strong> — the first AI-driven,
+              fully connected healthcare ecosystem in India. It unites patients, hospitals, doctors,
+              and ambulances into one synchronized network to ensure real-time care for every emergency.
             </p>
           </div>
           <div className={styles.image}>
@@ -48,78 +48,51 @@ const AboutUs = () => {
         <h2>Meet the Team</h2>
         <div className={styles.teamGrid}>
           <div className={styles.teamMember}>
-            <img src="/test/profile.jpg" alt="Ankit Rao" />
-            <h4>Ankit Rao</h4>
+            <img src="/test/profile.jpg" alt="Aditi Maindalkar" />
+            <h4>Aditi Maindalkar</h4>
             <p>
-              <strong>CEO & Product Lead</strong> <br />  Driving product vision with a focus on
-              meaningful healthcare impact.
+              <strong>CEO</strong> <br /> Steering Agenx Tech's overall strategy, operations, and partnerships with clarity and empathy.
             </p>
           </div>
           <div className={styles.teamMember}>
-            <img src="/test/profile.jpg" alt="Meena Das" />
-            <h4>Meena Das</h4>
+            <img src="/test/profile.jpg" alt="Sharvari Wanjari" />
+            <h4>Sharvari Wanjari</h4>
             <p>
-              <strong>CTO, AI & Sensor Systems</strong> <br /> Architecting intelligent, real-time
-              systems for critical healthcare needs.
+              <strong>CTO</strong> <br /> Leading AI systems, backend engineering, and ensuring LiveSure’s network is seamless and intelligent.
             </p>
           </div>
           <div className={styles.teamMember}>
-            <img src="/test/profile.jpg" alt="Dr. Ajay Kulkarni" />
-            <h4>Dr. Ajay Kulkarni</h4>
+            <img src="/test/profile.jpg" alt="Dhiraj Wasu" />
+            <h4>Dhiraj Wasu</h4>
             <p>
-              <strong>CPO Clinical Advisor</strong> <br /> Bringing frontline medical expertise to ensure
-              care is always patient-centered.
+              <strong>Product Strategy Lead</strong> <br /> Driving LiveSure’s product vision, system architecture, and real-world healthcare impact.
             </p>
           </div>
           <div className={styles.teamMember}>
-  <img src="/test/profile.jpg" alt="Dr. Ajay Kulkarni" />
-  <h4>Team Member</h4>
-  <p>
-    <strong>CMO, Team Member</strong> <br /> Overseeing clinical strategy, guiding medical teams, and
-    ensuring the highest standards of patient care.
-  </p>
-</div>
-
+            <img src="/test/profile.jpg" alt="Prasad Anumula" />
+            <h4>Prasad Anumula</h4>
+            <p>
+              <strong>CMO</strong> <br /> Building trust, partnerships, and awareness while leading LiveSure marketing.
+            </p>
+          </div>
         </div>
-
-       
       </section>
-
-      {/* Company Evolution */}
-      {/* <section className={styles.sectionAlt}>
-        <h2>Our Journey So Far</h2>
-        <ul className={styles.timeline}>
-          <li>
-            <h4>2023</h4>
-            <p>Founded LiveSure with the goal to bridge delays in emergency healthcare response.</p>
-          </li>
-          <li>
-            <h4>2024</h4>
-            <p>Developed real-time emergency detection with phone/wearable integration.</p>
-          </li>
-          <li>
-            <h4>2025</h4>
-            <p>Built a networked ecosystem of hospitals, ambulances, and health providers across cities.</p>
-          </li>
-        </ul>
-      </section> */}
 
       {/* Mission & Vision */}
       <section className={styles.missionVision}>
         <div className={styles.block}>
           <h3>Our Mission</h3>
           <p>
-            To make life-saving healthcare accessible in under 60 seconds for
-            everyone – using intelligent technology, human-centered design, and
-            a networked emergency ecosystem.
+            To make life-saving healthcare accessible in under 60 seconds for everyone — 
+            using AI, connected devices, and India’s first unified emergency healthcare ecosystem.
           </p>
         </div>
         <div className={styles.block}>
           <h3>Our Vision</h3>
           <p>
-            To become India’s most trusted AI-powered emergency and digital
-            health platform, bridging the gap between symptom onset and timely
-            care with zero digital barriers.
+            To become India’s most trusted AI-powered healthcare platform, 
+            bridging the gap between symptom onset and timely care with zero digital barriers — 
+            from urban hospitals to semi-rural clinics.
           </p>
         </div>
       </section>
@@ -129,27 +102,26 @@ const AboutUs = () => {
         <h2>Why People Trust LiveSure</h2>
         <div className={styles.highlights}>
           <div className={styles.highlight}>
-            <img src="/test/trust.svg" alt="Trusted by Professionals" />
+            <img src="/test/trust.svg" alt="Built for Urgency" />
             <h4>Built for Urgency</h4>
             <p>
-              Real-time emergency detection using phone and wearable sensors,
-              with one-tap SOS right from the lock screen.
+              Detect emergencies instantly through wearables or app SOS. One click triggers AI-assisted
+              triage, ambulance dispatch, hospital routing, and doctor notification.
             </p>
           </div>
           <div className={styles.highlight}>
             <img src="/test/expert.svg" alt="AI-powered" />
             <h4>Powered by Intelligence</h4>
             <p>
-              AI-driven ambulance dispatch, hospital booking, and health
-              assistance guiding you through recovery.
+              AI coordinates every step in real-time — from detection to hospital prep — saving precious minutes.
             </p>
           </div>
           <div className={styles.highlight}>
-            <img src="/test/support.svg" alt="Support" />
-            <h4>Designed for Dignity</h4>
+            <img src="/test/support.svg" alt="Connected Ecosystem" />
+            <h4>India’s First Connected Health Infrastructure</h4>
             <p>
-              Multilingual, voice-enabled, offline-ready—built to make sure no
-              one is left behind when care is needed most.
+              Patients, doctors, hospitals, and ambulances are all connected on one unified platform, 
+              creating seamless, predictive, and personalized emergency care.
             </p>
           </div>
         </div>

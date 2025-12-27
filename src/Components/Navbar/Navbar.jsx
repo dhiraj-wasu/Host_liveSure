@@ -39,7 +39,10 @@ const Navbar = () => {
       <nav className={styles.navbar}>
         {/* Logo */}
         <Link to="/" className={styles.logo}>
-          LiveSure
+         <div className={styles.logoContainer}>
+          <span className={styles.logoText}>LiveSure </span>
+          <span className={styles.byCompany}>A product by AgenxTech</span>
+          </div>
         </Link>
 
         {/* Hamburger (only visible on small screens) */}

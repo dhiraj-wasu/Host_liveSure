@@ -165,3 +165,21 @@
     display: none !important;
   }
 }
+.logoContainer {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+}
+
+.logoText {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #000; /* or your existing color */
+}
+
+.byCompany {
+  font-size: 0.7rem;
+  color: #1f52d5;
+  font-weight: 400;
+}
+
