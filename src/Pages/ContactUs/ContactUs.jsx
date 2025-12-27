@@ -21,7 +21,7 @@ Police Chowki, Nagpur- 440025, Maharashtra, India</p>
         </div>
         <div className={styles.infoBlock}>
           <h3>Customer Care</h3>
-          <p>Phone: +91-XXXX-XXXXXX</p>
+          <p>Phone: +91-9579295098</p>
           <p>Email: <a href="mailto:techagenx@gmail.com">techagenx@gmail.com</a></p>
           {/* <p>Emergency Email: <a href="mailto:emergency@livesure.in">techagenx@gmail.com</a></p> */}
         </div>
